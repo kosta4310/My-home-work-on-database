@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Geocoding</title>
+  </head>
+  <body>
+    <p>This form uses Google Maps Platform with Geocoding API</p>
+    <h1>Processing of form data</h1>
+    <h4>You are finding coordinates for the place:</h4>
+    <form action="https://maps.googleapis.com/maps/api/geocode/json">
+      <label for="address">City</label>
+      <input type="text" name="address" />
+      <label for="key">Your API_KEY</label>
+      <input
+        type="password"
+        name="key"
+        value="AIzaSyBv7R9-p35bGzPmoiBEBMMINo6iPbKShBk"
+      />
+      <input type="submit" value="send" />
+    </form>
+  </body>
+</html>
