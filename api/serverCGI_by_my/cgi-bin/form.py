@@ -3,7 +3,7 @@ import cgi,html,requests
 
 form = cgi.FieldStorage()
 address = form.getfirst("address","empty")
-api_key = form.getfirst("key","AIzaSyBv7R9-p35bGzPmoiBEBMMINo6iPbKShBk")
+api_key = form.getfirst("key","")
 
 # ----------------------------------------------------
 url = 'https://maps.googleapis.com/maps/api/geocode/json'
